@@ -17,7 +17,7 @@ const Todo = ({todo, index, id, done}) => {
             {todo}
           </h3>
           </div>
-          <button className="bg-green-300 shadow-lg shadow-green-400 hover:shadow-2xl hover:shadow-green-700 hover:scale-105 active:scale-98 p-3 text-white font-bold cursor-pointer flex items-center" onClick={()=>done(id)}><IoIosDoneAll className="text-3xl"/>Mark Done</button>
+          <button className="bg-green-300 shadow-lg shadow-green-400 hover:shadow-2xl hover:shadow-green-700 hover:scale-105 active:scale-98 p-3 text-white font-bold cursor-pointer flex items-center lg:text-3xl text-lg" onClick={()=>done(id)}><IoIosDoneAll className="lg:text-3xl text-lg"/><span className="hidden lg:block"></span></button>
         </div>
     </div>
     </>
